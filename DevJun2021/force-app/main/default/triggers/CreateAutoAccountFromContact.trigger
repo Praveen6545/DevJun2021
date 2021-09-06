@@ -35,6 +35,8 @@ trigger CreateAutoAccountFromContact on Contact (before insert, after insert){
                     {  
                         conNameKeys.get(acc.Name).accountId = acc.Id;  
                     }  
+
+                    
                 }  
             } 
         }
